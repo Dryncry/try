@@ -45,6 +45,7 @@
 
 
   .box-container {
+   /* background-color:  #CCE8F4ff; */
 
     width: 90%; /* Set the width of the box container to 70% of the page */
 
@@ -66,7 +67,7 @@
 
     height: 90vh; /* Set the height of the box to 10% of the viewport height */
 
-    background-color: #fff; /* Background color of the box */
+    background-color: rgb(255, 255, 255); /* Background color of the box */
 
     display: flex; /* Use flexbox layout */
 
@@ -82,7 +83,7 @@
 
     max-width: 40%; /* Set the maximum width of the image to 30% of the box width */
 
-    object-fit: cover; /* Ensure the image covers the entire box */
+    object-fit: fill; /* Ensure the image covers the entire box */
 
   }
 
