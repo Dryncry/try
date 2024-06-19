@@ -443,8 +443,13 @@ padding-right: 7%;}
 
 
 
-.btn:is(:hover, :focus) { background-position: right; }
+.btn:is(:hover, :focus) {
+  transform: scale(1.1);
+  background-position: right; }
 
+.btn:active{
+  color: blue;
+}
 
 
 .w-100 { width: 100%; }

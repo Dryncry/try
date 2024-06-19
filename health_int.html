@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Premium Bima</title>
+
+       <style>
+
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container-ser {
+            width: 50%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            color: #48477a;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input[type="text"],
+        input[type="date"],
+        input[type="number"],
+        input[type="email"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button.button-pro {
+          font-weight: bold;
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            border: none;
+            color: rgb(0, 0, 0);
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #218838;
+            color: white;
+        }
+
+       </style>
+
+        <!-- 
+
+          - favicon
+
+        -->
+
+        <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+      
+
+        <!-- 
+
+          - custom css linkS
+
+        -->
+
+        <link rel="stylesheet" href="./assets/css/style.css">
+
+        <link rel="stylesheet" href="./assets/css/products.css">
+
+      
+
+        <!-- 
+
+          - google font link
+
+        -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link
+
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+
+          rel="stylesheet">
+
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    </head>
+
+      
+
+    <body id="top">
+
+      
+
+  <!-- 
+
+    - #HEADER
+
+  -->
+
+
+
+  <header class="header" data-header>
+
+    <div class="container">
+
+
+
+      <div class="overlay" data-overlay></div>
+
+        <a href="#">
+          <img src="./assets/images/pblogo.png" width="100" height="60" alt="Premium Bima Logo">
+        </a>
+
+        <a href="#">
+          <h1 class="logo"></h1>
+        </a>
+
+        <nav class="navbar" data-navbar>
+
+ <!-- 
+
+    - #check this
+
+  -->
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+
+            <img src="./assets/images/pblogo.png" width="60" height="60" alt="Premium Bima Logo">
+            <h1></h1>
+
+            
+
+            </a>
+
+
+
+            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+
+                <ion-icon name="close-outline"></ion-icon>
+
+            </button>
+
+          </div>
+
+
+
+        <ul class="navbar-list">
+
+
+
+          <li class="navbar-item">
+
+            <a href="index.html" class="navbar-link" data-navbar-link>Home</a>
+
+          </li>
+
+
+
+          <li class="navbar-item">
+
+            <a href="products.html"  class="navbar-link" data-navbar-link>Products</a><!--./products.html-->
+
+          </li>
+
+
+
+          <li class="navbar-item">
+
+            <a href="index.html#about" class="navbar-link" data-navbar-link>About Us</a>
+
+          </li>
+
+
+
+          <li class="navbar-item">
+
+            <a href="#renew" class="navbar-link" data-navbar-link>Renew Your Policy</a>
+
+            <ul class="dropdown-menu">
+
+              <li><a href="#renew-life">Life Renewal</a></li><!--./renew-life.html new file location-->
+
+              <li><a href="healthren.html">Health Renewal</a></li><!--./renew-health.html new file location-->
+
+              <li><a href="#renew-motor">Motor Renewal</a></li><!--./renew-motor.html new file location-->
+
+            </ul>
+
+          </li>
+
+
+
+          <li class="navbar-item">
+
+            <a href="#intimate" class="navbar-link" data-navbar-link>Intimate Your Claim</a>
+
+            <ul class="dropdown-menu">
+
+              <li><a href="#intimate-health">Health Claim</a></li><!--./inmiate-health.html new file location-->
+
+              <li><a href="#intimate-motor">Motor Claim</a></li><!--./inmiate-motor.html new file location-->
+
+              <li><a href="#intimate-other">Other Claim</a></li><!--./inmiate-health.html new file location-->
+
+            </ul>
+
+          </li>
+
+
+
+          <li class="navbar-item">
+
+            <a href="#psop" class="navbar-link" data-navbar-link>Become a PSOP</a>
+
+          </li>
+
+
+
+          <li class="navbar-item">
+
+            <a href="index.html#contact" class="navbar-link" data-navbar-link>Contact Us</a>
+
+          </li>
+
+
+
+        </ul>
+
+
+
+      </nav>
+
+
+
+      <a href="https://user.premiumbima.com/" class="btn"> <!-- ./index.html replce with login link -->
+
+        <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon> <!-- add uability to the icon, link -->
+
+        <span >Login</span>
+
+        </a>
+
+
+
+      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+
+        <ion-icon name="menu-outline"></ion-icon>
+
+      </button>
+
+
+
+    </div>
+
+  </header>
+
+
+
+
+
+
+    <main>
+
+        <section class="section service" id="product">
+
+            <div class="container1">
+
+    
+
+              <h2 class="h2 section-title underline">Claim Intimation</h2>
+
+
+
+                    <div class="container-ser">
+                      <h1>Health Claim Form</h1>
+                      <form action="#" method="post">
+                          <label for="uhid">UHID / Ecard no.</label>
+                          <input type="text" id="uhid" name="uhid" required>
+              
+                          <label for="policyNo">Policy No</label>
+                          <input type="text" id="policyNo" name="policyNo" required>
+              
+                          <label for="corporateName">Corporate Name</label>
+                          <input type="text" id="corporateName" name="corporateName" required>
+              
+                          <label for="empCode">Emp. Code</label>
+                          <input type="text" id="empCode" name="empCode" required>
+              
+                          <label for="patientName">Patient Name</label>
+                          <input type="text" id="patientName" name="patientName" required>
+              
+                          <label for="claimType">Claim Type</label>
+                          <select id="claimType" name="claimType" required>
+                              <option value="" disabled selected>---Select---</option>
+                              <option value="cashless">CashLess</option>
+                              <option value="reimbursement">Re-Imbursement</option>
+                          </select>
+              
+                          <label for="admissionDate">Date of Admission</label>
+                          <input type="date" id="admissionDate" name="admissionDate" required>
+              
+                          <label for="lengthOfStay">Exp. length of stay (in days)</label>
+                          <input type="number" id="lengthOfStay" name="lengthOfStay" required>
+              
+                          <label for="expenses">Appr. Expenses</label>
+                          <input type="number" id="expenses" name="expenses" required>
+              
+                          <label for="complaints">Complaints</label>
+                          <textarea id="complaints" name="complaints" rows="4" required></textarea>
+              
+                          <label for="hospitalName">Hospital Name</label>
+                          <input type="text" id="hospitalName" name="hospitalName" required>
+              
+                          <label for="hospitalAddress">Hospital Address</label>
+                          <textarea id="hospitalAddress" name="hospitalAddress" rows="3" required></textarea>
+              
+                          <label for="contactNo">Contact No</label>
+                          <input type="text" id="contactNo" name="contactNo" required>
+              
+                          <label for="email">Email</label>
+                          <input type="email" id="email" name="email" required>
+              
+                          <button class="button-pro" type="submit">Submit</button>
+                      </form>
+                    </div>
+
+            </div>
+
+    
+
+             
+
+    
+
+            </div>
+
+          </section>
+
+    
+
+    </main>
+
+
+
+  <!-- 
+
+    - custom js link
+
+  -->
+
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+
+    - ionicon link
+
+  -->
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+</body>
+
+
+
+
+</body>
+
+</html>
+
+      
