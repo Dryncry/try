@@ -83,38 +83,41 @@
       <div class="overlay" data-overlay></div>
 
         <a href="#">
-          <img src="/assets/images/pblogo.png" width="100" height="60" alt="Premium Bima Logo">
+          <img src="./assets/images/pblogo.png" width="100" height="60" alt="Premium Bima Logo">
         </a>
 
         <a href="#">
-          <h1 class="logo">Premium Bima</h1>
+          <h1 class="logo"></h1>
         </a>
 
+        <nav class="navbar" data-navbar>
+
+ <!-- 
+
+    - #check this
+
+  -->
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+
+            <img src="./assets/images/pblogo.png" width="60" height="60" alt="Premium Bima Logo">
+            <h1></h1>
+
+            
+
+            </a>
 
 
 
-      <nav class="navbar" data-navbar>
+            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
 
+                <ion-icon name="close-outline"></ion-icon>
 
+            </button>
 
-        <div class="navbar-top">
-
-          <a href="#" class="logo">
-
-            <img src="/assets/images/pblogo.png" width="60" height="60" alt="Premium Bima Logo">
-            <h1>Premium Bima</h1>
-
-          </a>
-
-
-
-          <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
-
-            <ion-icon name="close-outline"></ion-icon>
-
-          </button>
-
-        </div>
+          </div>
 
 
 
@@ -132,7 +135,7 @@
 
           <li class="navbar-item">
 
-            <a href="./products.html" class="navbar-link" data-navbar-link>Products</a>
+            <a href="./products.html" class="navbar-link" data-navbar-link>Products</a><!--./products.html-->
 
           </li>
 
@@ -140,7 +143,7 @@
 
           <li class="navbar-item">
 
-            <a href="./index.html #about" class="navbar-link" data-navbar-link>About Us</a>
+            <a href="#about" class="navbar-link" data-navbar-link>About Us</a>
 
           </li>
 
@@ -152,11 +155,11 @@
 
             <ul class="dropdown-menu">
 
-              <li><a href="#renew-life">Life Renewal</a></li>
+              <li><a href="#renew-life">Life Renewal</a></li><!--./renew-life.html new file location-->
 
-              <li><a href="#renew-health">Health Renewal</a></li>
+              <li><a href="./healthren.html">Health Renewal</a></li><!--./renew-health.html new file location-->
 
-              <li><a href="#renew-motor">Motor Renewal</a></li>
+              <li><a href="#renew-motor">Motor Renewal</a></li><!--./renew-motor.html new file location-->
 
             </ul>
 
@@ -167,6 +170,16 @@
           <li class="navbar-item">
 
             <a href="#intimate" class="navbar-link" data-navbar-link>Intimate Your Claim</a>
+
+            <ul class="dropdown-menu">
+
+              <li><a href="health_int.html">Health Claim</a></li><!--./inmiate-health.html new file location-->
+
+              <li><a href="#intimate-motor">Motor Claim</a></li><!--./inmiate-motor.html new file location-->
+
+              <li><a href="other_int.html">Other Claim</a></li><!--./inmiate-health.html new file location-->
+
+            </ul>
 
           </li>
 
@@ -182,7 +195,7 @@
 
           <li class="navbar-item">
 
-            <a href="./index.html #contact" class="navbar-link" data-navbar-link>Contact Us</a>
+            <a href="#contact" class="navbar-link" data-navbar-link>Contact Us</a>
 
           </li>
 
@@ -196,13 +209,13 @@
 
 
 
-      <a href="./index.html" class="btn">  <!-- ./index.html replce with login link -->
+      <a href="https://user.premiumbima.com/" class="btn"> <!-- ./index.html replce with login link -->
 
         <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon> <!-- add uability to the icon, link -->
 
         <span>Login</span>
 
-      </a>
+        </a>
 
 
 
@@ -217,6 +230,7 @@
     </div>
 
   </header>
+
 
 
 

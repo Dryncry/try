@@ -1086,13 +1086,15 @@ padding-right: 7%;}
 
   font-size: 18px; /* Increased font size for larger text */
 
-  display: inline-block; /* Make the button a block-level element */
+  display: block; /* Make the button a block-level element */
 
-  margin: 0 auto;
+  margin: auto;
+
+  width: 25%;
 
   text-align: center;
 
-  margin-left: 530px;
+  /* margin-left: 530px; */
 
 }
 
