@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Premium Bima</title>
+
+       <style>
+
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container-ser {
+            width: 50%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            color: #48477a;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input[type="text"],
+        input[type="date"],
+        input[type="number"],
+        input[type="email"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button.button-pro {
+          font-weight: bold;
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            border: none;
+            color: rgb(0, 0, 0);
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #218838;
+            color: white;
+        }
+
+
+        
+
+       </style>
+
+        <!-- 
+
+          - favicon
+
+        -->
+
+        <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+      
+
+        <!-- 
+
+          - custom css linkS
+
+        -->
+
+        <link rel="stylesheet" href="./assets/css/style.css">
+
+        <link rel="stylesheet" href="./assets/css/products.css">
+
+      
+
+        <!-- 
+
+          - google font link
+
+        -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link
+
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+
+          rel="stylesheet">
+
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+
+       <style>
+        .section-title{
+          font-size:20px;
+          font-weight: bold;
+          margin-bottom: 5%;
+        }
+
+       </style>
+
+    </head>
+
+      
+
+    <body id="top">
+
+      
+
+  <!-- 
+
+    - #HEADER
+
+  -->
+
+
+
+  <header class="header" data-header>
+
+    <div class="container">
+
+
+
+      <div class="overlay" data-overlay></div>
+
+        <a href="#">
+          <img src="./assets/images/pblogo.png" width="100" height="60" alt="Premium Bima Logo">
+        </a>
+
+        <a href="#">
+          <h1 class="logo"></h1>
+        </a>
+
+        <nav class="navbar" data-navbar>
+
+ <!-- 
+
+    - #check this
+
+  -->
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+
+            <img src="./assets/images/pblogo.png" width="60" height="60" alt="Premium Bima Logo">
+            <h1></h1>
+
+            
+
+            </a>
+
+
+
+            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+
+                <ion-icon name="close-outline"></ion-icon>
+
+            </button>
+
+          </div>
+
+
+
+        <ul class="navbar-list">
+
+
+
+          <li class="navbar-item">
+
+            <a href="index.html" class="navbar-link" data-navbar-link>Home</a>
+
+          </li>
+
+
+
+          <li class="navbar-item">
+
+            <a href="products.html"  class="navbar-link" data-navbar-link>Products</a><!--./products.html-->
+
+          </li>
+
+
+
+          <li class="navbar-item">
+
+            <a href="index.html#about" class="navbar-link" data-navbar-link>About Us</a>
+
+          </li>
+
+
+
+          <li class="navbar-item">
+
+            <a href="#renew" class="navbar-link" data-navbar-link>Renew Your Policy</a>
+
+            <ul class="dropdown-menu">
+
+              <li><a href="#renew-life">Life Renewal</a></li><!--./renew-life.html new file location-->
+
+              <li><a href="healthren.html">Health Renewal</a></li><!--./renew-health.html new file location-->
+
+              <li><a href="#renew-motor">Motor Renewal</a></li><!--./renew-motor.html new file location-->
+
+            </ul>
+
+          </li>
+
+
+
+          <li class="navbar-item">
+
+            <a href="#intimate" class="navbar-link" data-navbar-link>Intimate Your Claim</a>
+
+            <ul class="dropdown-menu">
+
+              <li><a href="#intimate-health">Health Claim</a></li><!--./inmiate-health.html new file location-->
+
+              <li><a href="#intimate-motor">Motor Claim</a></li><!--./inmiate-motor.html new file location-->
+
+              <li><a href="#intimate-other">Other Claim</a></li><!--./inmiate-health.html new file location-->
+
+            </ul>
+
+          </li>
+
+
+
+          <li class="navbar-item">
+
+            <a href="#psop" class="navbar-link" data-navbar-link>Become a PSOP</a>
+
+          </li>
+
+
+
+          <li class="navbar-item">
+
+            <a href="index.html#contact" class="navbar-link" data-navbar-link>Contact Us</a>
+
+          </li>
+
+
+
+        </ul>
+
+
+
+      </nav>
+
+
+
+      <a href="https://user.premiumbima.com/" class="btn"> <!-- ./index.html replce with login link -->
+
+        <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon> <!-- add uability to the icon, link -->
+
+        <span >Login</span>
+
+        </a>
+
+
+
+      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+
+        <ion-icon name="menu-outline"></ion-icon>
+
+      </button>
+
+
+
+    </div>
+
+  </header>
+
+
+
+
+
+
+    <main>
+
+        <section class="section service" id="product">
+
+            <div class="container1">
+
+    
+
+              <h2 class="h2 section-title underline">Claim Intimation</h2>
+
+
+
+              <form id="reportForm" action="#" method="post" onsubmit="handleSubmit(event)">
+                <div class="form-group">
+                    <label for="policyNo">Policy No. / Cover Note No.:</label>
+                    <input type="text" id="policyNo" name="policyNo" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="insurancePeriod">Period of Insurance:</label>
+                    <input type="text" id="insurancePeriod" name="insurancePeriod" required>
+                </div>
+        
+                <div class="section-title">1. Name of the Insured & Address, e-mail ID & Mobile No.</div>
+                <div class="form-group">
+                    <label for="insuredName">Name:</label>
+                    <input type="text" id="insuredName" name="insuredName" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="insuredAddress">Address:</label>
+                    <textarea id="insuredAddress" name="insuredAddress" rows="3" required></textarea>
+                </div>
+        
+                <div class="form-group">
+                    <label for="insuredPin">PIN:</label>
+                    <input type="text" id="insuredPin" name="insuredPin" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="insuredEmail">e-mail ID:</label>
+                    <input type="email" id="insuredEmail" name="insuredEmail" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="insuredMobile">Mobile No.:</label>
+                    <input type="text" id="insuredMobile" name="insuredMobile" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="insuredPAN">PAN No.:</label>
+                    <input type="text" id="insuredPAN" name="insuredPAN" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="bankDetails">Bank A/c. Particulars:</label>
+                    <input type="text" id="bankDetails" name="bankDetails" required>
+                </div>
+        
+                <div class="section-title">2. DETAILS OF ACCIDENT / THEFT:</div>
+                <div class="form-group">
+                    <label for="accidentDate">Date:</label>
+                    <input type="date" id="accidentDate" name="accidentDate" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="accidentTime">Time:</label>
+                    <input type="time" id="accidentTime" name="accidentTime" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="accidentPlace">Place:</label>
+                    <input type="text" id="accidentPlace" name="accidentPlace" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="firNo">FIR No. & Date:</label>
+                    <input type="text" id="firNo" name="firNo" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="charges">Charges u/s:</label>
+                    <input type="text" id="charges" name="charges" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="policeStation">Police Station:</label>
+                    <input type="text" id="policeStation" name="policeStation" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="otherVehicles">In case other Vehicle(s) is/are involved/ responsible, specify vehicle No(s).:</label>
+                    <input type="text" id="otherVehicles" name="otherVehicles">
+                </div>
+        
+                <div class="form-group">
+                    <label for="otherVehiclePolicyDetails">Policy details of that Vehicle(s):</label>
+                    <input type="text" id="otherVehiclePolicyDetails" name="otherVehiclePolicyDetails">
+                </div>
+        
+                <div class="form-group">
+                    <label for="vehicleUse">For what purpose was the vehicle being used at the material time?</label>
+                    <input type="text" id="vehicleUse" name="vehicleUse" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="accidentDetails">Brief particulars of the accident:</label>
+                    <textarea id="accidentDetails" name="accidentDetails" rows="4" required></textarea>
+                </div>
+        
+                <div class="form-group">
+                    <label for="firReasons">FIR: Specify the reasons for delayed FIR or not lodging an FIR:</label>
+                    <textarea id="firReasons" name="firReasons" rows="3"></textarea>
+                </div>
+        
+                <div class="section-title">3. Details of other Insurance Policy, if any:</div>
+                <div class="form-group">
+                    <label for="otherPolicyNo">Policy No.:</label>
+                    <input type="text" id="otherPolicyNo" name="otherPolicyNo">
+                </div>
+        
+                <div class="form-group">
+                    <label for="otherPolicyPeriod">Period of Insurance:</label>
+                    <input type="text" id="otherPolicyPeriod" name="otherPolicyPeriod">
+                </div>
+        
+                <div class="section-title">4. THE INSURED VEHICLE PARTICULARS</div>
+                <div class="form-group">
+                    <label for="vehicleRegNo">Regd. No.:</label>
+                    <input type="text" id="vehicleRegNo" name="vehicleRegNo" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="vehicleMake">Make:</label>
+                    <input type="text" id="vehicleMake" name="vehicleMake" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="vehicleYear">Year:</label>
+                    <input type="text" id="vehicleYear" name="vehicleYear" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="engineNo">Engine No.:</label>
+                    <input type="text" id="engineNo" name="engineNo" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="chasisNo">Chasis No.:</label>
+                    <input type="text" id="chasisNo" name="chasisNo" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="carryingCapacity">Cubic / Carrying Capacity:</label>
+                    <input type="text" id="carryingCapacity" name="carryingCapacity" required>
+                </div>
+        
+                <div class="section-title">5. For Private Vehicle:</div>
+                <div class="form-group">
+                    <label for="occupants">Whether Occupant(s) / Pillion - Rider(s) was / were carried at the material time of accident?</label>
+                    <select id="occupants" name="occupants" required>
+                        <option value="" disabled selected>---Select---</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+        
+                <div class="form-group">
+                    <label for="passengerDetails">Give name and addresses, contact Tel. No. of passengers/other witnesses if any:</label>
+                    <textarea id="passengerDetails" name="passengerDetails" rows="3"></textarea>
+                </div>
+        
+                <div class="section-title">For Commercial Vehicle:</div>
+                <div class="form-group">
+                    <label for="ladenWeight">Regd. Laden Weight: kg</label>
+                    <input type="number" id="ladenWeight" name="ladenWeight">
+                </div>
+        
+                <div class="form-group">
+                    <label for="unladenWeight">Unladen Weight: kg</label>
+                    <input type="number" id="unladenWeight" name="unladenWeight">
+                </div>
+        
+                <div class="form-group">
+                    <label for="goodsWeight">Weight of Goods Carried: kg</label>
+                    <input type="number" id="goodsWeight" name="goodsWeight">
+                </div>
+        
+                <div class="form-group">
+                    <label for="permitType">Type of Permit:</label>
+                    <input type="text" id="permitType" name="permitType">
+                </div>
+        
+                <div class="form-group">
+                    <label for="goodsNature">Nature of Goods carried:</label>
+                    <input type="text" id="goodsNature" name="goodsNature">
+                </div>
+        
+                <div class="form-group">
+                    <label for="personInGoodsVehicle">Person Carried in Goods Vehicle:</label>
+                    <input type="text" id="personInGoodsVehicle" name="personInGoodsVehicle">
+                </div>
+        
+                <div class="form-group">
+                    <label for="publicLiability">Whether Public Liability Policy is taken (For dangerous / Hazardous Goods)?</label>
+                    <select id="publicLiability" name="publicLiability">
+                        <option value="" disabled selected>---Select---</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+        
+                <div class="form-group">
+                    <label for="publicLiabilityDetails">If yes, specify Policy No. & validity period:</label>
+                    <input type="text" id="publicLiabilityDetails" name="publicLiabilityDetails">
+                </div>
+        
+                <div class="form-group">
+                    <label for="passengersInPSV">No. of Passengers carried in case of PSV at the material time of accident:</label>
+                    <input type="number" id="passengersInPSV" name="passengersInPSV">
+                </div>
+        
+                <div class="form-group">
+                    <label for="passengersPermitted">No. of Passengers permitted under Permit:</label>
+                    <input type="number" id="passengersPermitted" name="passengersPermitted">
+                </div>
+        
+                <div class="form-group">
+                    <label for="trailerAttached">Whether the vehicle attached with Trailer(s)?</label>
+                    <select id="trailerAttached" name="trailerAttached">
+                        <option value="" disabled selected>---Select---</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+        
+                <div class="form-group">
+                    <label for="trailerNos">If Yes, specify No(s).:</label>
+                    <input type="text" id="trailerNos" name="trailerNos">
+                </div>
+        
+                <div class="form-group">
+                    <label for="commercialPolicyNos">Policy / Cover note Nos.:</label>
+                    <input type="text" id="commercialPolicyNos" name="commercialPolicyNos">
+                </div>
+        
+                <div class="form-group">
+                    <label for="commercialInsurancePeriod">Period of insurance:</label>
+                    <input type="text" id="commercialInsurancePeriod" name="commercialInsurancePeriod">
+                </div>
+        
+                <div class="section-title">6. DETAILS OF INJURY / DEATH TO THIRD PARTY / EMPLOYEES / DAMAGE TO THIRD PARTY PROPERTY ETC.:</div>
+                <div class="form-group">
+                    <label for="thirdPartyInjured">Specify No. of Persons Injured / Died:</label>
+                    <div>
+                        <label for="injuredNo">Injured:</label>
+                        <input type="number" id="injuredNo" name="injuredNo">
+                    </div>
+                    <div>
+                        <label for="deathNo">Death:</label>
+                        <input type="number" id="deathNo" name="deathNo">
+                    </div>
+                </div>
+        
+                <div class="form-group">
+                    <label for="workmanInjury">Whether any of your Workman sustained injury / death:</label>
+                    <select id="workmanInjury" name="workmanInjury">
+                        <option value="" disabled selected>---Select---</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <div>
+                        <label for="workmanInjuredNo">Injured:</label>
+                        <input type="number" id="workmanInjuredNo" name="workmanInjuredNo">
+                    </div>
+                    <div>
+                        <label for="workmanDeathNo">Death:</label>
+                        <input type="number" id="workmanDeathNo" name="workmanDeathNo">
+                    </div>
+                </div>
+        
+                <div class="form-group">
+                    <label for="workmanWages">Specify the wages paid to the concerned Workman/men:</label>
+                    <input type="text" id="workmanWages" name="workmanWages">
+                </div>
+        
+                <div class="form-group">
+                    <label for="tppdDamage">Specify the nature of damage to TPPD:</label>
+                    <input type="text" id="tppdDamage" name="tppdDamage">
+                </div>
+        
+                <div class="section-title">7. DETAILS OF THE DRIVER ON THE WHEEL, AT THE MATERIAL TIME OF ACCIDENT:</div>
+                <div class="form-group">
+                    <label for="driverName">Name & Address of the Driver:</label>
+                    <input type="text" id="driverName" name="driverName" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="driverAge">Age:</label>
+                    <input type="number" id="driverAge" name="driverAge" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="driverRelationship">Relationship with Insured: Put 'X' Mark:</label>
+                    <input type="text" id="driverRelationship" name="driverRelationship" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="drivingLicenceNo">Driving Licence No.:</label>
+                    <input type="text" id="drivingLicenceNo" name="drivingLicenceNo" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="issuingAuthority">Issuing Authority:</label>
+                    <input type="text" id="issuingAuthority" name="issuingAuthority" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="vehicleTypes">Specify, type(s) of Motor Vehicle(s) Authorised to drive:</label>
+                    <input type="text" id="vehicleTypes" name="vehicleTypes" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="licenceExpiry">Date of expiry:</label>
+                    <input type="date" id="licenceExpiry" name="licenceExpiry" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="issuingAuthorities">Specify, Original issuing Authority and subsequent renewing Authorities in chronological order:</label>
+                    <textarea id="issuingAuthorities" name="issuingAuthorities" rows="3" required></textarea>
+                </div>
+        
+                <div class="form-group">
+                    <label for="licenceSuspended">Whether the Driving Licence is / was suspended any time by the Competent Authority / Court:</label>
+                    <select id="licenceSuspended" name="licenceSuspended" required>
+                        <option value="" disabled selected>---Select---</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="licenceSuspendedDetails">If yes, give details:</label>
+                    <textarea id="licenceSuspendedDetails" name="licenceSuspendedDetails" rows="3"></textarea>
+                </div>
+        
+                <div class="form-group">
+                    <label for="driverAccidents">Has the driver had any previous accidents in the five years, if yes give details:</label>
+                    <textarea id="driverAccidents" name="driverAccidents" rows="3"></textarea>
+                </div>
+        
+                <div class="section-title">8. DETAILS OF DAMAGE TO INSURED VEHICLE:</div>
+                <div class="form-group">
+                    <label for="vehicleInspection">When & where the damaged vehicle can be inspected:</label>
+                    <input type="text" id="vehicleInspection" name="vehicleInspection" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="damageDescription">Nature & Description of the Damage to the insured Vehicle:</label>
+                    <textarea id="damageDescription" name="damageDescription" rows="3" required></textarea>
+                </div>
+        
+                <div class="form-group">
+                    <label for="idv">IDV : Rs..</label>
+                    <input type="number" id="idv" name="idv" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="estimatedCost">Approximate Estimated Cost of repairs: Rs.</label>
+                    <input type="number" id="estimatedCost" name="estimatedCost" required>
+                </div>
+        
+                <button type="submit">Submit</button>
+                </form>
+                <div class="submitted-message" id="submittedMessage">
+                    Your form has been submitted.
+                </div>
+        
+
+            </div>
+
+    
+
+             
+
+    
+
+            </div>
+
+          </section>
+
+    
+
+    </main>
+
+
+
+  <!-- 
+
+    - custom js link
+
+  -->
+
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+
+    - ionicon link
+
+  -->
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+</body>
+
+
+
+
+</body>
+
+</html>
+
+      
