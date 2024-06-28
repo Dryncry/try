@@ -85,7 +85,7 @@
 
     object-fit:scale-down; /* Ensure the image covers the entire box */
 
-    animation: zoom-in 5s linear 1;
+    animation: zoom-in 1s linear 1;
 
   }
 
