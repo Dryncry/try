@@ -1,3 +1,7 @@
+/* footer */
+
+
+
 /*-----------------------------------*\
 
   #navbar styling 
@@ -17,8 +21,8 @@
   .logo {
 
     color: var(--st-patricks-blue); /* Set the color to black */
-
-    float: left; /* Align the title to the left */
+/* 
+    float: left; Align the title to the left */
 
     margin-right: 20px; /* Adjust the spacing between the title and the navigation */
 

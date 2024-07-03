@@ -20,7 +20,7 @@
 
     color: var(--st-patricks-blue); /* Set the color to black */
 
-    float: left; /* Align the title to the left */
+    /* float: left; Align the title to the left */
 
     margin-right: 20px; /* Adjust the spacing between the title and the navigation */
 
@@ -54,11 +54,15 @@
 
     padding: 20px; /* Padding of 20px on all sides */
 
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Shadow around the box */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.322); /* Shadow around the box */
 
     border-radius: 20px;
 
-    margin-top: 120px;
+    margin-top: 150px;
+
+    background-color: #F7F7F7ff;;
+
+  
 
   }
 
@@ -66,11 +70,13 @@
 
   .box {
 
+
+
     width: 100%;
 
     height: 70vh; /* Set the height of the box to 10% of the viewport height */
 
-    background-color: #fff; /* Background color of the box */
+    background-color: #F7F7F7ff; /* Background color of the box */
 
     display: flex; /* Use flexbox layout */
 
@@ -84,17 +90,21 @@
 
     width: auto;
 
-    height: 100%; /* Ensure the image fills the height of the box */
+     height: 100%; /* Ensure the image fills the height of the box  */
 
-    max-width: 30%; /* Set the maximum width of the image to 30% of the box width */
+     max-width: 30%; /*Set the maximum width of the image to 30% of the box width */
 
-    object-fit: cover; /* Ensure the image covers the entire box */
+ 
 
+    object-fit: scale-down; /* Ensure the image covers the entire box */
+    background-color: #F7F7F7ff;
   }
 
 
 
   .box-content {
+
+
 
     display: flex;
 
@@ -430,7 +440,7 @@
 
 
 
-.footer { font-size: var(--fs-8); }
+/* .footer { font-size: var(--fs-8); }
 
 
 
@@ -468,23 +478,111 @@
 
 }
 
+ */
+
+/* .footer-brand {
+
+  text-align: center; /* Center align the content within the footer 
+
+} */
 
 
-.footer-brand {
-
-  text-align: center; /* Center align the content within the footer */
-
-}
-
-
-
+/* 
 .text {
 
-  max-width: 800px; /* Set a maximum width for the text to prevent it from spreading too wide */
+  max-width: 800px;  Set a maximum width for the text to prevent it from spreading too wide 
 
-  margin: 0 auto; /* Center the text horizontally */
+  margin: 0 auto;  Center the text horizontally 
+
+} */
+
+@media (max-width: 1024px) {
+
+  div.box{display: flex;
+    flex-direction: column;
+    height: auto;
+   }
+
+
+   .car-img{
+
+    width: 300px;
+    max-width: 200%;
+ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+  .box-content {
+    padding: 0%;
+  }
+
+  .box-text-container {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .box-text {
+    font-size: 15px;
+    text-align: center;
+  }
+
+
+  div.plans{
+    padding: 0%;
+    align-items: center;
+  }
+
+  div.boxto{
+    width: 100%;
+    margin-bottom: 0px;
+    grid-gap: 30px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    
+  }
+
+
+  .boxtobox{
+    height: 150px;
+    width: 300px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+   }
+
+  .boxtobox img{
+    width: 300px;
+    height: 150px;
+    
+  }
+
+
+  /* outside */
+
+  .nav-open-btn{
+    color: hsl(0deg 0% 0%);
+  }
+
+h4.term-heading {
+  padding: 0;
+  margin-left: 6%;
+      font-size: 25px;
+      margin-top: 120px;
+  }
+
+  .get-quotes-btn {
+    width: 250px;
+    margin-left: 0%
+  }
 
 }
+
+
+
+
 
 
 

@@ -1346,6 +1346,7 @@ padding-right: 7%;}
 .footer-brand { margin-block-end: 30px; }
 
 .footer-brand .logo {
+  display: inline;
   font-weight: var(--fw-700);
   margin-block-end: 20px;
 }
@@ -1608,6 +1609,8 @@ padding-right: 7%;}
    * FOOTER
 
    */
+
+
 
 
 
