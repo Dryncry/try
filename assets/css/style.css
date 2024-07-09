@@ -2129,3 +2129,21 @@ padding-right: 7%;}
 
 
 }
+
+@media (max-width: 767px) {
+  
+  *,
+
+  *::before,
+  
+  *::after {
+  
+    margin: 0;
+  
+    padding: 0;
+  
+    box-sizing:content-box
+  
+  }
+  
+}

@@ -503,7 +503,8 @@
     height: auto;
    }
 
-
+   .prop-img,
+   .doctor-img,
    .car-img{
 
     width: 300px;
