@@ -191,6 +191,17 @@
   }
 
 
+  .plans1{margin-top: 10px;
+    font-size: 30px;
+
+
+    text-align: center;
+
+    padding-left: 10px;
+
+    font-family: var(--ff-source-sans-pro);
+
+  }
 
   .plans{
 
@@ -579,7 +590,14 @@ h4.term-heading {
     margin-left: 0%
   }
 
+  .travel-ins-text-phone-dis{
+
+    flex-direction: column;
+  }
+  
+
 }
+
 
 
 

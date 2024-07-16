@@ -217,6 +217,17 @@
  
 
   
+  .personal-label1 {
+
+    color: black; /* Set the color of the label to grey */
+
+    margin-top: 2px;
+
+    margin-left: 10px;
+
+  }
+
+
 
   .personal-label {
 
@@ -229,6 +240,22 @@
   }
 
   
+  .personal-textbox1 {
+
+    width: 100%; /* Set the width of the text box to fill the container */
+
+    padding: 10px; /* Add padding to the text box */
+
+    margin-top: 10px; /* Add space between the label and the text box */
+
+    border: 1px solid #ccc; /* Add a border to the text box */
+
+    border-radius: 5px; /* Add rounded corners to the text box */
+
+    margin-left: 10px;
+
+  }
+
 
   .personal-textbox {
 
@@ -389,4 +416,7 @@
 }
 
 
-
+.travel-ins-text-phone-dis{
+  display: flex; 
+  flex-direction: row;
+}
