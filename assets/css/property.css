@@ -314,3 +314,10 @@
     margin-bottom: 15px;
 
  }
+
+
+ /* family healht page list item */
+
+ .list-name li{
+ list-style-type:disc;
+ }
