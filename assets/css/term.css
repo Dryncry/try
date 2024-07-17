@@ -262,4 +262,110 @@
 
  }
 
+ @media (max-width: 425px) {
+ .term-img {
+
+  max-width: 100%;
+
+
+
+}}
+
+ @media (max-width: 1200px) {
+
+  .term-img {
+
+    width: 300px;
+    max-width: 200%;
+ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+  div.box{display: flex;
+    flex-direction: column;
+    height: auto;
+   }
+
+
+  .health-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }  
+
+  .box-content {
+    padding: 0%;
+  }
+
+  .box-text-container {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .box-text {
+    font-size: 15px;
+    text-align: center;
+  }
+
+
+  div.plans{
+    padding: 0%;
+    align-items: center;
+  }
+
+  div.boxto{
+    width: 100%;
+    margin-bottom: 0px;
+    grid-gap: 30px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    
+  }
+
+
+  .boxtobox{
+    height: 150px;
+    width: 300px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+   }
+
+  .boxtobox img{
+    width: 300px;
+    height: 150px;
+    
+  }
+
+
+  /* outside */
+
+  .nav-open-btn{
+    color: hsl(0deg 0% 0%);
+  }
+
+h4.term-heading {
+  padding: 0;
+  margin-left: 6%;
+      font-size: 25px;
+      margin-top: 120px;
+  }
+
+  .get-quotes-btn {
+    width: 250px;
+    margin-left: 0%
+  }
+
+
+  .box-text-container > :nth-child(2) {
+    margin-left: 0px;
+}
+
+
+}
+
   
