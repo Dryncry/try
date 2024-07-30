@@ -14,7 +14,32 @@
 
   }
 
-  
+  .car-img {
+
+    width: auto;
+
+    height: 100%; /* Ensure the image fills the height of the box */
+
+    max-width: 40%; /* Set the maximum width of the image to 30% of the box width */
+
+    object-fit: scale-down; /* Ensure the image covers the entire box */
+
+    background-color:  #FFE1B2ff;
+
+    animation: zoom-in 1s linear 1;
+
+  }
+
+
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(0, 0);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
 
   .logo {
 
@@ -508,6 +533,13 @@
 } */
 
 @media (max-width: 1024px) {
+
+
+  .box-text:nth-child(1) {
+
+    margin-right: 0px; /* Add margin between the texts */
+
+  }
 
   div.box{display: flex;
     flex-direction: column;

@@ -42,6 +42,8 @@ body {
         input[type="number"],
         input[type="email"],
         input[type="time"],
+        input[type="submit"],
+        button[type="submit"],
         textarea,
         select {
             width: 100%;
@@ -50,6 +52,16 @@ body {
             border: 1px solid #ccc;
             border-radius: 4px;
         }
+
+        .uploadbox{
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 5px grey;
+            display: flex;
+            flex-direction: row;
+        }
+
         button.button-pro {
           font-weight: bold;
             width: 100%;
@@ -121,6 +133,8 @@ body {
         }
 
        </style>
+
+
 
     </head>
 
@@ -312,7 +326,7 @@ body {
 
 
               <div class="container-ser">
-                <h1>Health Claim Form</h1>
+                <h1>Motor Claim Form</h1>
               <form id="reportForm" action="#" method="post" onsubmit="handleSubmit(event)">
                 <div class="form-group">
                     <label for="policyNo">Policy No. / Cover Note No.:</label>
@@ -673,6 +687,18 @@ body {
                     <label for="estimatedCost">Approximate Estimated Cost of repairs: Rs.</label>
                     <input type="number" id="estimatedCost" name="estimatedCost" required>
                 </div>
+
+
+                
+                <form  method='post' enctype='multipart/form-data' action=''>
+                    <div><h4>Upload accidental vehicle video or photos</h4></div>
+                    <div class="uploadbox">
+                    <input type='file' name='myfile' />
+                    <!-- <input type='submit' name='upload' value='SEND'/> -->
+                </div>
+                </form>
+
+
         
                 <button type="submit">Submit</button>
                 </form>

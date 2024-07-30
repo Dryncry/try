@@ -88,7 +88,20 @@
 
     object-fit: cover; /* Ensure the image covers the entire box */
 
+    animation: zoom-in 1s linear 1;
+
   }
+
+
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(0, 0);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
 
 
 

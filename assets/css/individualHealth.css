@@ -47,7 +47,22 @@
     height: 100%;
     max-width: 30%;
     object-fit:scale-down;
-    background-color: #CBDCEEff;  }
+    background-color: #CBDCEEff;  
+
+    animation: zoom-in 1s linear 1;
+
+  }
+
+
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(0, 0);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
 
 
 
