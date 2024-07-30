@@ -2147,3 +2147,22 @@ padding-right: 7%;}
   }
   
 }
+
+
+@media (max-width: 426px) {
+
+  .title {
+
+    margin-top: 10px;
+  
+    font-size: 17px; /* Adjust title font size */
+  
+    font-family: Arial, sans-serif;
+  
+    font-weight: bold;
+  
+    color:var(--gradient-1); /* Adjust title color */
+  
+  }
+  
+}
